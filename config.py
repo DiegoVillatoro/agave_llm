@@ -1,0 +1,6 @@
+CHROMADB_PATH = "E:\\Experiments\\agents\\agave\\chroma_db"
+DOCS_PATH = "E:\\Experiments\\agents\\agave\\Diseases"
+#EMBEDDINGS_MODEL = "intfloat/multilingual-e5-base"#"text-embedding-3-large"
+EMBEDDINGS_MODEL = "text-embedding-3-large"
+CHROMADB_TEXT_PATH = "E:\\Experiments\\agents\\chroma_text"
+CHROMADB_IMAGE_PATH = "E:\\Experiments\\agents\\chroma_images"
