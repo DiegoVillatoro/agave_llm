@@ -781,7 +781,6 @@ Look for:
 * persistent canopy gaps
 * irregular leaf size distribution
 * canopy asymmetry
-* inter-row vegetation
 
 ### CANOPY TEXTURE FEATURES
 
