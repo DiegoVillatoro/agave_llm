@@ -5,6 +5,7 @@
 #img_shape = (5757, 7033) #zone108_octubre
 #img_shape = (11942, 7897, 3) #"zone102_part1"
 
+### Explain orthomap
 import os
 import json
 import numpy as np

@@ -1,3 +1,4 @@
+#### EXPLAIN TILES
 import os
 import cv2
 import json
@@ -180,8 +181,9 @@ def analyze_region_with_llm(rgb_path, good_img_path1, good_img_path2):
     )
     print("llm calling ...")
     response = client.responses.parse(
+        #model="gpt-5.6-sol",
         model="gpt-4o-mini",
-        temperature=0.1,
+        temperature=0.0,
         input=[
             {
                 "role": "user",
