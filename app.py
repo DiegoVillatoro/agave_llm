@@ -517,7 +517,9 @@ st.sidebar.title("Orthomosaic")
 
 orthomap_path = st.sidebar.text_input(
     "GeoTIFF path",
-    r"E:\Experiments\Datasets Maps\Zone108_octubre_full.tif"
+    r"E:\Experiments\Datasets Maps\Zone108_full.tif"
+    #r"E:\Experiments\Datasets Maps\Zone102_part1_full.tif"
+    #r"E:\Experiments\Datasets Maps\Zone3_full.tif"
 )
 
 zone_name = orthomap_path.split("\\")[-1].split(".")[0]
